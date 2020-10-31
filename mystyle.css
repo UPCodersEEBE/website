@@ -1,0 +1,69 @@
+
+.img-carroussel {
+	width: 80%;
+	height: 80vh;
+	object-fit: cover;
+  	vertical-align: top
+}
+
+h1 {
+	font-family: 'Titillium Web';
+	font-weight: 600;
+}
+
+h2 {
+	font-family: 'Titillium Web';
+	font-weight: 600;
+}
+
+
+h3 {
+	font-family: 'Titillium Web';
+	font-weight: 400;
+}
+
+body {
+	font-family: 'Lato';
+}
+
+.foot {
+	background:#18171c;
+	width:100%;
+	margin: 0;
+	display:flex;
+	flex-direction:row;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.foot-element {
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items: flex-start;
+	padding:15px;
+}
+
+.head {
+	background:black;
+	width:100%;
+	margin: 0;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: flex-start;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.head-element {
+	color:white;
+	display:flex;
+	font-size: 24px;
+	flex-direction:column;
+	align-items: flex-start;
+	padding:15px;
+	text-decoration:none
+}
+
