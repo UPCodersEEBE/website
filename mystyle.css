@@ -26,24 +26,6 @@ body {
 	font-family: 'Lato';
 }
 
-.foot {
-	background:#18171c;
-	width:100%;
-	margin: 0;
-	display:flex;
-	flex-direction:row;
-	align-items: flex-start;
-	justify-content: space-around;
-}
-
-.foot-element {
-	color:white;
-	display:flex;
-	flex-direction:column;
-	align-items: flex-start;
-	padding:15px;
-}
-
 .head {
 	background:black;
 	width:100%;
@@ -66,4 +48,56 @@ body {
 	padding:15px;
 	text-decoration:none
 }
+.foot {
+	background:#18171c;
+	width:100%;
+	margin: 0;
+	display:flex;
+	flex-direction:row;
+	align-items: flex-start;
+	justify-content: space-around;
+}
 
+.foot-element {
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items: flex-start;
+	padding:15px;
+}
+.linktree {
+	background:black;
+	width:90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%); 
+}
+
+.linktree-element {
+	padding: 50px;
+	display:flex;
+	font-size: 24px;
+	flex-direction:row;
+	align-items: flex-start;
+	text-decoration:none;
+	margin: 50px;
+}
+
+
+.container {
+  height:50%;
+  border: 1px solid black;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.other {
+  height:320px;
+  border: 1px solid red;
+}
